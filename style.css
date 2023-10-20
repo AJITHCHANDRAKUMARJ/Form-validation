@@ -1,0 +1,60 @@
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(213,253,45,1) 100%);
+    background-attachment: fixed;
+    margin : 0;
+}
+
+#form{
+    background-color: snow;
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    padding: 10px;
+}
+
+#form h1{
+    color: rgb(28, 7, 146);
+}
+
+#form button{
+    background-color: rgb(28, 7, 146);
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid rgb(28, 7, 146);
+    border-radius: 5px;
+    width:80%;
+    margin: auto 10% ;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-group input{
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(34,193,195,1);
+    font-size: 16px;
+    padding:0 5px;
+}
+
+.input-group input:focus{
+    outline: 0;
+}
+
+.input-group .error{
+    margin-top: 5px;
+    color:red;
+}
+
+.input-group.error input{
+    border: 1px solid red;
+}
+ 
+.input-group.success input{
+    border: 1px solid greenyellow;
+}
