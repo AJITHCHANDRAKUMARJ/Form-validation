@@ -50,7 +50,7 @@ let success = true
          }else {
             setSuccess(cPasswordEl)
          }
-             
+          return success   
 }
 
 function setError(element, message){
